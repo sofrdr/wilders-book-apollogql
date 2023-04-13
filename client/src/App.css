@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+  color: #222;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0.35em;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+p {
+  margin: 0 0 1.15em;
+}
+
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
+}
+
+
+
+.button {
+  /* Reset text link default */
+  text-decoration: none;
+  border: none;
+  background-color: #F76C6C;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px 0;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 7px 20px;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+.hide {
+  display: none;
+}
+
+.card-row {
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  justify-content: space-between;
+}

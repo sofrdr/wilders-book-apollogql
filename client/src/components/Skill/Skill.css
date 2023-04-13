@@ -1,0 +1,54 @@
+.skills {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.skills li {
+    margin: 4px;
+    display: flex;
+    border: #F76C6C 1px solid;
+    border-radius: 4px;
+    padding: 3px 7px;
+
+    width: 33%;
+    position: relative;
+
+}
+
+
+
+.skills .votes {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Colors */
+    background-color: rgba(0, 0, 0, .3);
+    color: #FFF;
+
+    /* Rounded border */
+    border-radius: 9999px;
+    height: 20px;
+    width: 20px;
+}
+
+.skills .delete-btn {
+    cursor: pointer;
+    position: absolute;
+    top: -6px;
+    right: -7px;
+
+}
+
+.skills .delete-btn svg {
+
+    font-weight: bold;
+
+    background-color: #FFF;
+}

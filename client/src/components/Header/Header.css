@@ -1,4 +1,12 @@
 header {
     background-color: #F76C6C;
     color: #fff;
+
+
+}
+
+.flex-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
